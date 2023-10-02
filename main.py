@@ -1,5 +1,6 @@
 def test(x):
-	for i in range(len(x),-1,0):
-		print(i)
+for i in range(len(x),-1,-1):
+	print(x[i-1],end="")
+		
 		
 test("hello")
