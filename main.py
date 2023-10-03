@@ -8,4 +8,4 @@ def test(x):
 	
 		
 		
-test("hello")
+test("test")
