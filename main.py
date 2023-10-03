@@ -1,11 +1,10 @@
-y = 0
 def test(x):
-y+=1
-if y == len(x):
-	pass
-else:
+	y = 0
 	for i in range(len(x),-1,-1):
-		print(x[i-1],end="")
+		if y == len(x):
+			pass
+		else:
+			print(x[i-1],end="")
 	
 		
 		
