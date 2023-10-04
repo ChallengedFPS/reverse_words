@@ -7,5 +7,6 @@ def test(x):
 			print(x[i-1],end="")
 	
 		
-		
+
 test("test")
+test("among us")
