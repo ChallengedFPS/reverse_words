@@ -9,4 +9,4 @@ def test(x):
 		
 
 test("test")
-test("among us")
+test("among us 123")
